@@ -1,3 +1,10 @@
+#mainpage {
+    width: 90%;
+    padding: 5px;
+    background-color: #f8ecc2;
+    margin: auto;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -6,10 +13,6 @@ ul {
     background-color: #333;
 }
 
-#content {
-    width: 80%;
-    margin: auto;
-}
 
 .active {
     background-color: #4CAF50;
@@ -44,3 +47,8 @@ li a:hover {
     clear: both;
     display: table;
 }
+
+aside {
+    float: right;
+}
+
