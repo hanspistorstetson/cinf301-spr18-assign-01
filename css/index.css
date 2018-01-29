@@ -54,12 +54,21 @@ aside {
 
 #post-container {
     display: flex;
-    background-color: blue;
     flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
 }
 
 .post {
     margin: auto;
     flex: 1 300px;
+    text-align: center;
+    height: 100%;
+
+}
+
+.sep {
+    border-bottom: 3px solid #4588ba;
+    margin:10px;
 }
 
